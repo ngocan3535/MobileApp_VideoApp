@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MoveUITemplate</string>
+    <string name="simple_text">asadadsasdasdasdasasdzxzczxczczczasqqwvqvavaqwdqwqqsczacscascacsxzxdveqwfqvscascascascczcxzcxcczcawascacascascascascascxzcx
+    ascacscascaxcxzc</string>
+    <string-array name="query_suggetions">
+        <item>No1</item>
+        <item>No2</item>
+        <item>No3</item>
+        <item>No4</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

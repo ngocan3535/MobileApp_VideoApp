@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        app:cardBackgroundColor="#ffffff">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_idphim"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="ID phim"-->
+<!--                android:textSize="17dp"-->
+<!--                android:textColor="@color/purple_700"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_tenphim"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tên phim"-->
+<!--                android:textSize="17dp"-->
+<!--                android:textColor="@color/teal_700"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/item_movie_img_like"
+            android:scaleType="centerCrop"
+            android:layout_width="125dp"
+            android:layout_height="175dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:textColor="#ffffffff"
+            android:id="@+id/tv_tenphim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_movie_img_like" />
+    </LinearLayout>
+
+
+</LinearLayout>
